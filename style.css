@@ -13,7 +13,8 @@ h2 {
   background-color: #fff;
   border-radius: 2px;
   border-left: 3px solid;
-  width: 400px;
+  max-width: 400px;
+  min-width: 300px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 20px 0;
   transition: all linear 0.3s;
@@ -111,9 +112,10 @@ h2 {
 .btn {
   padding: 20px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
-  margin: 0 10px;
+  margin: 10px;
   color: #fff;
   border-radius: 10px;
+  width: 100px;
 }
 .btn-success {
   background-color: #3ab45a;
